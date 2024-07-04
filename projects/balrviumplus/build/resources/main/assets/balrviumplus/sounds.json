@@ -1,0 +1,51 @@
+{
+  "balrviumhurt": {
+    "subtitle": "subtitles.balrviumhurt",
+    "sounds": [
+      {
+        "name": "balrviumplus:balrvium_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "balrviumgiggle": {
+    "subtitle": "subtitles.balrviumgiggle",
+    "sounds": [
+      {
+        "name": "balrviumplus:giggle1",
+        "stream": false
+      },
+      {
+        "name": "balrviumplus:giggle2",
+        "stream": false
+      }
+    ]
+  },
+  "balrviumdeath": {
+    "subtitle": "subtitles.balrviumdeath",
+    "sounds": [
+      {
+        "name": "balrviumplus:balrvium_death",
+        "stream": false
+      }
+    ]
+  },
+  "balrviumhammer": {
+    "subtitle": "subtitles.balrviumhammer",
+    "sounds": [
+      {
+        "name": "balrviumplus:hammer1",
+        "stream": false
+      }
+    ]
+  },
+  "balrviumhonk": {
+    "subtitle": "subtitles.balrviumhonk",
+    "sounds": [
+      {
+        "name": "balrviumplus:horn",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "advancements.watchyourstep.title"
+    },
+    "description": {
+      "translate": "advancements.watchyourstep.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "watchyourstep_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "balrviumplus:dirt_boot_recipe",
+      "balrviumplus:dirtslab_craft"
+    ]
+  }
+}

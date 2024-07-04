@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "balrviumplus:block/dirt_slab"
+    },
+    "type=top": {
+      "model": "balrviumplus:block/dirt_slab_top"
+    },
+    "type=double": {
+      "model": "balrviumplus:block/dirt_slab_full"
+    }
+  }
+}

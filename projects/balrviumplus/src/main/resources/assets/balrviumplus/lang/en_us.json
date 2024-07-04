@@ -1,0 +1,13 @@
+{
+  "block.balrviumplus.dirt_slab": "Dirt Slab",
+  "subtitles.balrviumhammer": "Balrvium Hammer breaks",
+  "advancements.watchyourstep.title": "Watch Your Step!",
+  "gamerule.dangerousLeap": "dangerousLeap",
+  "subtitles.balrviumhurt": "Balrvium hurts",
+  "subtitles.balrviumgiggle": "Balrvium giggles",
+  "gamerule.dangerousLeap.description": "Weather or not the player will die of fall damage from any distance without boots boots.",
+  "subtitles.balrviumdeath": "Balrvium dies",
+  "advancements.watchyourstep.descr": "Die of fall damage",
+  "subtitles.balrviumhonk": "Balrvium item crafted",
+  "item.balrviumplus.dirtboots_boots": "Dirt Boots"
+}

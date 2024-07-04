@@ -1,0 +1,168 @@
+{
+  "mod_elements": [
+    {
+      "name": "DangerousLeap",
+      "type": "gamerule",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dangerous_leap",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Watchyourstep",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watchyourstep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/balrviumplus/advancements/watchyourstep.json"
+        ]
+      }
+    },
+    {
+      "name": "LeapTrue",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leap_true",
+      "metadata": {
+        "files": [
+          "src/main/java/balrviumplus/procedures/LeapTrueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BreakingBoots",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/balrviumplus/procedures/BreakingBootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dirtboots",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/balrviumplus/models/item/dirtboots_boots.json",
+          "src/main/java/balrviumplus/item/DirtbootsItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "balrviumhurt",
+      "files": [
+        "balrvium_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Balrvium hurts"
+    },
+    {
+      "name": "balrviumgiggle",
+      "files": [
+        "giggle1",
+        "giggle2"
+      ],
+      "category": "neutral",
+      "subtitle": "Balrvium giggles"
+    },
+    {
+      "name": "balrviumdeath",
+      "files": [
+        "balrvium_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Balrvium dies"
+    },
+    {
+      "name": "balrviumhammer",
+      "files": [
+        "hammer1"
+      ],
+      "category": "neutral",
+      "subtitle": "Balrvium Hammer breaks"
+    },
+    {
+      "name": "balrviumhonk",
+      "files": [
+        "horn"
+      ],
+      "category": "player",
+      "subtitle": "Balrvium item crafted"
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.balrviumhammer": "Balrvium Hammer breaks",
+      "advancements.watchyourstep.title": "Watch Your Step!",
+      "gamerule.dangerousLeap": "dangerousLeap",
+      "subtitles.balrviumhurt": "Balrvium hurts",
+      "subtitles.balrviumgiggle": "Balrvium giggles",
+      "gamerule.dangerousLeap.description": "Weather or not the player will die of fall damage from any distance without boots boots.",
+      "subtitles.balrviumdeath": "Balrvium dies",
+      "advancements.watchyourstep.descr": "Die of fall damage",
+      "subtitles.balrviumhonk": "Balrvium item crafted",
+      "item.balrviumplus.dirtboots_boots": "Dirt Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "balrviumplus",
+    "modName": "balrviumplus",
+    "version": "1.0.0",
+    "author": "skrumpus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "balrviumplus"
+  },
+  "mcreatorVersion": 202400118518
+}

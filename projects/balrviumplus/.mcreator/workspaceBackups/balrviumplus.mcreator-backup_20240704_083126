@@ -1,0 +1,40 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "balrviumhurt",
+      "files": [
+        "balrvium_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Balrvium hurts"
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.balrviumhurt": "Balrvium hurts"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "balrviumplus",
+    "modName": "balrviumplus",
+    "version": "1.0.0",
+    "author": "skrumpus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "balrviumplus"
+  },
+  "mcreatorVersion": 202400118518
+}
