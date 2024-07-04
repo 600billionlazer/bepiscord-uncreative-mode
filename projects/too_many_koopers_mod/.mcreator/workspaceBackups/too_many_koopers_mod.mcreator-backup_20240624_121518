@@ -1,0 +1,125 @@
+{
+  "mod_elements": [
+    {
+      "name": "Kooper",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kooper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomanykoopersmod/client/renderer/KooperRenderer.java",
+          "src/main/resources/data/too_many_koopers_mod/forge/biome_modifier/kooper_biome_modifier.json",
+          "src/main/java/net/mcreator/toomanykoopersmod/entity/KooperEntity.java",
+          "src/main/resources/assets/too_many_koopers_mod/models/item/kooper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "RedKooper",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_kooper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomanykoopersmod/client/renderer/RedKooperRenderer.java",
+          "src/main/java/net/mcreator/toomanykoopersmod/entity/RedKooperEntity.java",
+          "src/main/resources/data/too_many_koopers_mod/forge/biome_modifier/red_kooper_biome_modifier.json",
+          "src/main/resources/assets/too_many_koopers_mod/models/item/red_kooper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "KooperRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kooper_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomanykoopersmod/procedures/KooperRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "koop_hurt",
+      "files": [
+        "koop_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Kooper Hurt"
+    },
+    {
+      "name": "koop_die",
+      "files": [
+        "koop_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Kooper Dying"
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.koop_die": "Kooper Dying",
+      "item.too_many_koopers_mod.red_kooper_spawn_egg": "Red Kooper Spawn Egg",
+      "item.too_many_koopers_mod.kooper_spawn_egg": "Kooper Spawn Egg",
+      "subtitles.koop_hurt": "Kooper Hurt",
+      "entity.too_many_koopers_mod.kooper": "Kooper",
+      "entity.too_many_koopers_mod.red_kooper": "Red Kooper"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "too_many_koopers_mod",
+    "modName": "Too Many Koopers Mod",
+    "version": "1.0.0",
+    "author": "skrumpus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.toomanykoopersmod"
+  },
+  "mcreatorVersion": 202400115821
+}

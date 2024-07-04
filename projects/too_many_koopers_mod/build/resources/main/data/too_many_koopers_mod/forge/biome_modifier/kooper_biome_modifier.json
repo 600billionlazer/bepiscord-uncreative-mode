@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "too_many_koopers_mod:kooper",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 6
+  }
+}

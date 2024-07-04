@@ -1,0 +1,20 @@
+{
+  "koop_hurt": {
+    "subtitle": "subtitles.koop_hurt",
+    "sounds": [
+      {
+        "name": "too_many_koopers_mod:koop_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "koop_die": {
+    "subtitle": "subtitles.koop_die",
+    "sounds": [
+      {
+        "name": "too_many_koopers_mod:koop_death",
+        "stream": false
+      }
+    ]
+  }
+}
